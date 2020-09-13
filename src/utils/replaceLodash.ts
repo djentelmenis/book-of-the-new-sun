@@ -6,6 +6,7 @@ const replaceLodash = (
   subString: string,
   newString: string
 ): string => {
+  console.log('replaceLodash called')
   return _.replace(str, subString, newString)
 }
 

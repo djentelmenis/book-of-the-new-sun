@@ -6,6 +6,7 @@ export interface Props {
 }
 
 const ExampleComponent = ({ text }: Props) => {
+  console.log('Example component called')
   return <div className={styles.test}>Example Component: {text}</div>
 }
 

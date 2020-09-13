@@ -5,6 +5,7 @@ export interface IFButtonProps {
 }
 
 const IFButton = ({ text }: IFButtonProps) => {
+  console.log('IFButton component called')
   return <button>{text}</button>
 }
 

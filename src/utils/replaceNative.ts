@@ -3,6 +3,7 @@ const replaceNative = (
   subString: string,
   newString: string
 ): string => {
+  console.log('replaceNative called')
   return str.replace(subString, newString)
 }
 
